@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahía Cristal — Diseño Arquitectónico 6 | Edificio Híbrido</title>
+    <meta name="description" content="BAHÍA CRISTAL — Diseño Arquitectónico 6: Edificio Híbrido Vivienda de Alta Densidad. Proyecto de arquitectura contemporánea.">
+    <meta property="og:title" content="Bahía Cristal — Edificio Híbrido Vivienda de Alta Densidad">
+    <meta property="og:description" content="Diseño Arquitectónico 6 — Proyecto de arquitectura contemporánea de alta densidad.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Blueprint Grid Background -->
+    <div class="blueprint-grid" aria-hidden="true"></div>
+    
+    <!-- Floating Blueprint Elements -->
+    <div class="blueprint-elements" aria-hidden="true">
+        <div class="blueprint-line line-1"></div>
+        <div class="blueprint-line line-2"></div>
+        <div class="blueprint-line line-3"></div>
+        <div class="blueprint-circle circle-1"></div>
+        <div class="blueprint-circle circle-2"></div>
+        <div class="blueprint-dimension dim-1">
+            <span>45.00 m</span>
+        </div>
+        <div class="blueprint-dimension dim-2">
+            <span>120.50 m</span>
+        </div>
+        <div class="compass-rose">
+            <svg viewBox="0 0 100 100" width="80" height="80">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="rgba(100,180,255,0.2)" stroke-width="1"/>
+                <circle cx="50" cy="50" r="35" fill="none" stroke="rgba(100,180,255,0.15)" stroke-width="0.5"/>
+                <line x1="50" y1="5" x2="50" y2="95" stroke="rgba(100,180,255,0.15)" stroke-width="0.5"/>
+                <line x1="5" y1="50" x2="95" y2="50" stroke="rgba(100,180,255,0.15)" stroke-width="0.5"/>
+                <text x="50" y="15" text-anchor="middle" fill="rgba(100,180,255,0.4)" font-size="10" font-family="Space Mono">N</text>
+                <text x="50" y="92" text-anchor="middle" fill="rgba(100,180,255,0.3)" font-size="8" font-family="Space Mono">S</text>
+                <text x="88" y="53" text-anchor="middle" fill="rgba(100,180,255,0.3)" font-size="8" font-family="Space Mono">E</text>
+                <text x="12" y="53" text-anchor="middle" fill="rgba(100,180,255,0.3)" font-size="8" font-family="Space Mono">O</text>
+                <polygon points="50,8 46,20 54,20" fill="rgba(100,180,255,0.3)"/>
+            </svg>
+        </div>
+    </div>
+
+    <!-- Particle Canvas -->
+    <canvas id="particles" aria-hidden="true"></canvas>
+
+    <main>
+        <!-- Header Section -->
+        <header class="header" id="header">
+            <div class="header-badge">
+                <div class="badge-icon">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/>
+                        <path d="M9 9h1M14 9h1M9 12h1M14 12h1"/>
+                    </svg>
+                </div>
+                <span class="badge-text">DISEÑO ARQUITECTÓNICO 6</span>
+            </div>
+            
+            <div class="title-block">
+                <div class="title-line"></div>
+                <h1 class="main-title">
+                    <span class="title-label">EDIFICIO HÍBRIDO — VIVIENDA DE ALTA DENSIDAD</span>
+                    <span class="title-name">BAHÍA<br>CRISTAL</span>
+                </h1>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="header-meta">
+                <div class="meta-item">
+                    <span class="meta-label">TIPOLOGÍA</span>
+                    <span class="meta-value">RESIDENCIAL MIXTO</span>
+                </div>
+                <div class="meta-divider"></div>
+                <div class="meta-item">
+                    <span class="meta-label">ESCALA</span>
+                    <span class="meta-value">ALTA DENSIDAD</span>
+                </div>
+                <div class="meta-divider"></div>
+                <div class="meta-item">
+                    <span class="meta-label">PROYECTO</span>
+                    <span class="meta-value">N° 006</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Video Section -->
+        <section class="video-section" id="video-section">
+            <div class="video-frame">
+                <div class="frame-corner corner-tl"></div>
+                <div class="frame-corner corner-tr"></div>
+                <div class="frame-corner corner-bl"></div>
+                <div class="frame-corner corner-br"></div>
+                
+                <div class="video-container" id="video-container">
+                    <!-- 
+                        INSTRUCCIONES: Reemplaza la URL del src con tu link de GitHub Releases.
+                        Formato: https://github.com/TU_USUARIO/bahia-cristal/releases/download/v1.0/video.mp4
+                    -->
+                    <video 
+                        id="video-player"
+                        src="TU_URL_DE_GITHUB_RELEASES_AQUI"
+                        poster=""
+                        controls
+                        playsinline
+                        preload="metadata"
+                        autoplay
+                        muted
+                        loop>
+                        Tu navegador no soporta video HTML5.
+                    </video>
+                </div>
+
+                <div class="video-label-left">
+                    <span>PRESENTACIÓN</span>
+                </div>
+                <div class="video-label-right">
+                    <span>030 SEG</span>
+                </div>
+            </div>
+
+            <div class="video-caption">
+                <div class="caption-line"></div>
+                <p>Recorrido virtual del proyecto arquitectónico Bahía Cristal</p>
+                <div class="caption-line"></div>
+            </div>
+        </section>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator" id="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>EXPLORAR</span>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/>
+                    </svg>
+                </div>
+                <span class="footer-title">BAHÍA CRISTAL</span>
+            </div>
+            
+            <a href="https://www.instagram.com/susejp_/" target="_blank" rel="noopener noreferrer" class="instagram-link" id="instagram-link">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                    <circle cx="12" cy="12" r="5"/>
+                    <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/>
+                </svg>
+                <span>@susejp_</span>
+            </a>
+
+            <div class="footer-credits">
+                <span class="footer-year">© 2026</span>
+                <span class="footer-divider">—</span>
+                <span class="footer-project">DISEÑO ARQUITECTÓNICO 6</span>
+            </div>
+        </div>
+        <div class="footer-line"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
