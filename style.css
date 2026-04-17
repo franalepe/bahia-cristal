@@ -411,8 +411,7 @@ main {
     overflow: hidden;
 }
 
-.video-container iframe,
-.video-container video {
+.video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -420,8 +419,20 @@ main {
     height: 100%;
     border: none;
     border-radius: 6px;
-    object-fit: contain;
     background: #000;
+}
+
+/* Overlay to hide Google Drive's pop-out/new-window button */
+.drive-overlay-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 56px;
+    height: 56px;
+    background: #000;
+    z-index: 5;
+    border-radius: 0 6px 0 0;
+    pointer-events: all;
 }
 
 /* Video Labels */
