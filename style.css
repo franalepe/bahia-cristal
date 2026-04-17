@@ -633,47 +633,162 @@ main {
 
 @media (max-width: 768px) {
     main {
-        padding: 30px 16px;
+        padding: 24px 16px 16px;
+        justify-content: flex-start;
+        gap: 0;
     }
-    
+
+    /* Header compact */
+    .header {
+        margin-bottom: 20px;
+    }
+
+    .header-badge {
+        padding: 6px 14px;
+        margin-bottom: 16px;
+    }
+
+    .badge-text {
+        font-size: 9px;
+        letter-spacing: 0.15em;
+    }
+
+    .title-block {
+        margin-bottom: 16px;
+    }
+
+    .title-line {
+        margin: 0 auto 12px;
+    }
+
+    .title-line:last-child {
+        margin: 12px auto 0;
+    }
+
+    .title-label {
+        font-size: 9px;
+        letter-spacing: 0.15em;
+    }
+
+    .title-name {
+        font-size: clamp(40px, 14vw, 60px);
+    }
+
+    /* Meta items: side by side on mobile */
     .header-meta {
-        gap: 12px;
+        gap: 0;
+        flex-direction: row;
+        justify-content: center;
     }
-    
+
+    .meta-item {
+        padding: 0 16px;
+    }
+
+    .meta-label {
+        font-size: 8px;
+    }
+
+    .meta-value {
+        font-size: 9px;
+    }
+
     .meta-divider {
-        display: none;
+        height: 24px;
     }
-    
-    .header-meta {
-        flex-direction: column;
+
+    /* Video section tight */
+    .video-section {
+        margin-bottom: 0;
     }
-    
+
+    .video-frame {
+        padding: 2px;
+    }
+
+    .frame-corner {
+        width: 14px;
+        height: 14px;
+    }
+
+    .video-label-left,
+    .video-label-right {
+        bottom: -24px;
+        font-size: 8px;
+    }
+
+    .video-caption {
+        margin-top: 36px;
+    }
+
     .video-caption p {
         white-space: normal;
-        font-size: 10px;
+        font-size: 9px;
+        letter-spacing: 0.05em;
     }
-    
+
+    .caption-line {
+        max-width: 40px;
+    }
+
+    /* Scroll indicator smaller */
+    .scroll-indicator {
+        margin-top: 20px;
+    }
+
+    .scroll-line {
+        height: 24px;
+    }
+
+    .scroll-indicator span {
+        font-size: 8px;
+    }
+
+    /* Footer compact */
+    .footer {
+        padding: 30px 16px 20px;
+    }
+
     .footer-content {
         flex-direction: column;
         text-align: center;
+        gap: 14px;
     }
-    
+
+    .footer-title {
+        font-size: 10px;
+    }
+
+    .instagram-link {
+        padding: 10px 24px;
+        font-size: 13px;
+    }
+
+    .footer-credits {
+        font-size: 9px;
+    }
+
+    /* Hide decorative blueprint elements on mobile */
     .blueprint-elements {
-        display: none;
-    }
-    
-    .compass-rose {
         display: none;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 380px) {
     .title-name {
-        font-size: 42px;
+        font-size: 38px;
     }
-    
+
+    .header-badge {
+        padding: 5px 12px;
+    }
+
     .badge-text {
-        font-size: 9px;
+        font-size: 8px;
+    }
+
+    .meta-item {
+        padding: 0 10px;
     }
 }
 
