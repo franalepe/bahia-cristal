@@ -411,7 +411,8 @@ main {
     overflow: hidden;
 }
 
-.video-container iframe {
+.video-container iframe,
+.video-container video {
     position: absolute;
     top: 0;
     left: 0;
@@ -419,6 +420,8 @@ main {
     height: 100%;
     border: none;
     border-radius: 6px;
+    object-fit: contain;
+    background: #000;
 }
 
 /* Video Labels */
