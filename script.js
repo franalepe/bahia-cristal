@@ -1,5 +1,5 @@
 /* ============================================
-   BAHÍA CRISTAL — Interactive Scripts
+   AGORA: SPACE & STAGE — Interactive Scripts
    Particle system + Scroll animations
    ============================================ */
 
